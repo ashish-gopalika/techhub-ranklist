@@ -74,7 +74,7 @@
             },
             {
                 name: 'Pragya Mugale',
-                points: 1
+                points: 2
             },
             {
                 name: 'Ayushi Gupta',
@@ -109,9 +109,13 @@
                 points: 1
             },
         ]
+        function sortColumn(){
+            data=data.sort((p1,p2)=>{
+                return p2['points']-p1['points']
+            })
+        }
         function putData()
         {
-            
             var dataList="";
             var count=1;
             for(i of data){
