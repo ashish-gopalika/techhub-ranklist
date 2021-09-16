@@ -150,7 +150,7 @@
             },
             {
                 name: 'Shreya B S',
-                points: -1
+                points: 0
             },
             {
                 name: 'Anoushka Panda',
@@ -221,6 +221,18 @@
                 points: -1
             },
             {
+                name: 'Hitha S',
+                points: -1
+            },
+            {
+                name: 'Priyanka V',
+                points: -1
+            },
+            {
+                name: 'Mihir',
+                points: -1
+            },
+            {
                 name: 'Ankit Mishra',
                 points: -1
             },
@@ -281,6 +293,7 @@
         function putData()
         {
             var dataList="";
+            sortColumn();
             var count=1;
             for(i of data){
                 dataList=dataList+"<tr>"+"<td>"+count.toString(10)+"</td>"+"<td>"+i.name+"</td>"+"<td>"+i.points+"</td>"+"</tr>";
